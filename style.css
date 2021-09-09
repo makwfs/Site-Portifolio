@@ -437,7 +437,7 @@ section#skills {
 .skills__design,
 .skills__coding {
   padding: calc(1rem + 2vw);
-  text-transform: uppercase;
+  
   flex-basis: 40rem;
   flex-grow: 1;
 }
@@ -445,6 +445,7 @@ section#skills {
 .skills__design--title,
 .skills__coding--title {
   font-size: 3rem;
+  text-transform: uppercase;
   margin-bottom: 2rem;
 }
 
@@ -471,10 +472,123 @@ section#skills {
   display: inline-block;
   vertical-align: middle;
   height: 2rem;
+  border-radius: 1rem 0 0 1rem;
   background-color: var(--secondary-color);
 }
 
+.skills__design--progress__1 {
+  animation: design-1 4s infinite cubic-bezier(1,0, 0, 1);
+}
+
+@keyframes design-1 {
+  0%{
+    width: 0;
+    }
+  100%{
+    width: 80%;
+  }
+}
+
+.skills__design--progress__2 {
+  animation: design-2 4s infinite cubic-bezier(1,0, 0, 1);
+}
+
+@keyframes design-2 {
+  0%{
+    width: 0;
+    }
+  100%{
+    width: 70%;
+  }
+}
+
+.skills__design--progress__3 {
+  animation: design-3 4s infinite cubic-bezier(1,0, 0, 1);
+}
+
+@keyframes design-3 {
+  0%{
+    width: 0;
+    }
+  100%{
+    width: 95%;
+  }
+}
+
+.skills__design--progress__4 {
+  animation: design-4 4s infinite cubic-bezier(1,0, 0, 1);
+}
+
+@keyframes design-4 {
+  0%{
+    width: 0;
+    }
+  100%{
+    width: 65%;
+  }
+}
+
+.skills__coding--progress__1 {
+  animation: design-1 4s infinite cubic-bezier(1,0, 0, 1);
+}
+
+@keyframes coding-1 {
+  0%{
+    width: 0;
+    }
+  100%{
+    width: 95%;
+  }
+}
+
+.skills__coding--progress__2 {
+  animation: coding-2 4s infinite cubic-bezier(1,0, 0, 1);
+}
+
+@keyframes coding-2 {
+  0%{
+    width: 0;
+    }
+  100%{
+    width: 80%;
+  }
+}
+
+.skills__coding--progress__3 {
+  animation: design-3 4s infinite cubic-bezier(1,0, 0, 1);
+}
+
+@keyframes coding-3 {
+  0%{
+    width: 0;
+    }
+  100%{
+    width: 65%;
+  }
+}
+
+.skills__coding--progress__4 {
+  animation: design-4 4s infinite cubic-bezier(1,0, 0, 1);
+}
+
+@keyframes coding-4 {
+  0%{
+    width: 0;
+    }
+  100%{
+    width: 90%;
+  }
+}
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*(max-width:1510px)-*-*-*-*-*-*-*-*-*-*-*-*-*/
+@media screen and (min-width:1510px) {
+  body{
+    width: 1510px;
+    margin: 0 auto;
+  }
+}
 /*-*-*-*-*-*-*-*-*-*-*-*-*-*(max-width:900px)-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
 @media screen and (max-width: 900px) {
   /*-*-*-*-*-*-*-*-*-*-*-*-*-* Showcase /  Hero Section -*-*-*-*-*-*-*-*-*-*-*-*-*/
   section#showcase {
@@ -588,7 +702,7 @@ section#skills {
   }
 
   /*-*-*-*-*-*-*-*-*-*-*-*-*-* Services Section -*-*-*-*-*-*-*-*-*-*-*-*-*/
-
+  /*-*-*-*-*-*-*-*-*-*-*-*-*-* Skill Section -*-*-*-*-*-*-*-*-*-*-*-*-*/
   section#services {
     padding: 6rem 3rem 2rem;
   }
@@ -598,11 +712,21 @@ section#skills {
     margin: 0 0 calc(1rem + 2vw);
   }
 
-  .services--title {
+  .services--title,
+  .skill__design--title,
+  .skill__coding--title {
     font-size: calc(1.2rem + 2vw);
   }
 
-  .services--para {
+  .services--para,
+  .services--design h4,
+  .services--coding h4 {
     font-size: calc(0.8rem + 1.5vw);
   }
+
+  
+
+
+
+
 }
