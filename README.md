@@ -2,7 +2,7 @@
 <p align="center">Projeto desenvolvido para fins de estudo !</p>
 
 <h4 align="center"> 
-	🚧  Projeto Concluido ✅  🚧
+	🚧  Projeto Concluido / 
 	🚧  Project completed ✅  🚧
 </h4>
  
@@ -21,7 +21,7 @@ better develop HTML/CSS concepts with an emphasis on Flex Box.</p>
 </p>
 <p align="center">
 Você pode visualizar o projeto atráves do deste link:<br>
- COLOCAR LINK DO SITE AQUI DEPOIS !!!!</p>
+ https://makwfs.github.io/Site-Portifolio/</p>
 
  <h2>⚙️ Tecnologias e ferramentas utilizadas:  / Technologies and tools used:</h2>
  
