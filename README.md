@@ -19,5 +19,5 @@ better develop HTML/CSS concepts with an emphasis on Flex Box.</p>
 <h2>👨‍🏫 Demonstração da aplicação</h2>
 <h2>👨‍🏫 Application demo</h2>
 <p align="center">
-<img  src="https://media.giphy.com/media/JxM7WHUlmXvxei2nvq/giphy.gif" >
+<img  src="https://media.giphy.com/media/CZGFUNsNGS5BIaT8Ch/giphy.gif" >
 </p>
